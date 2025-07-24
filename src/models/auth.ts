@@ -1,4 +1,4 @@
-import { Schema, model } from "mongoose";
+import { Schema, model, Types } from "mongoose";
 import { TAuth } from "../type";
 
 const email_regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -22,6 +22,11 @@ const AuthSchema = new Schema<TAuth>(
     isActive: {
       type: Boolean,
       default: true,
+    },
+    teamId: {
+      type: Types.ObjectId,
+      ref: "teams",
+      default: null,
     },
   },
   { timestamps: true }

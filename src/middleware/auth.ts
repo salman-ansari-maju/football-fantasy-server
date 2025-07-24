@@ -17,7 +17,7 @@ export const isAuthorized = async (
       return throwErrorResponse("UNAUTHORIZE", "Unauthorized request");
 
     req.user = {
-      userId: decoded?.sub,
+      id: decoded?.sub,
       sessionId: decoded?.tki,
     };
 

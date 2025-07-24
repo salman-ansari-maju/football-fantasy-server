@@ -10,68 +10,6 @@ import {
 } from "../utils";
 import bcrypt from "bcrypt";
 
-//   try {
-//     const { email, password } = req.body;
-//     // login user using email and password
-//     const user = await AuthModel.findOne({ email });
-//     // if user has invalid credentials
-//     if (!user) {
-//       req.body.password = await bcrypt.hash(req.body.password, 5);
-//       const user = new AuthModel(req.body);
-//       await user.save();
-//       // create new session
-//       const session = new SessionsModel({
-//         tokenType: "CONFIRMATION_TOKEN",
-//         userId: user.id,
-//       });
-
-//       // save session of that token
-//       const access_token = createToken(
-//         `${user?._id}`,
-//         `${session._id}`,
-//         "ACCESS_TOKEN"
-//       );
-//       await session.save();
-
-//       sendResponse(res, "USER LOGIN", {
-//         access_token,
-//         email: user.email,
-//         username: user.username,
-//       });
-//       return;
-//     }
-//     // compare password
-//     const comparePassword = await bcrypt.compare(
-//       password,
-//       user?.password || ""
-//     );
-//     if (!comparePassword)
-//       return throwErrorResponse("BAD_REQUEST", "INVALID EMAIL OR PASSWORD");
-//     // create new session
-//     const session = new SessionsModel({
-//       tokenType: "ACCESS_TOKEN",
-//       userId: user?._id,
-//     });
-//     // create user access token
-//     const access_token = createToken(
-//       `${user?._id}`,
-//       `${session._id}`,
-//       "ACCESS_TOKEN"
-//     );
-//     // save user sessions
-//     session.token = access_token;
-//     await session.save();
-
-//     sendResponse(res, "USER LOGIN", {
-//       access_token,
-//       email: user.email,
-//       username: user.username,
-//     });
-//   } catch (error) {
-//     sendErrorResponse(res, error);
-//   }
-// };
-
 export const login = async (req: Request, res: Response) => {
   try {
     const { email, password } = req.body;

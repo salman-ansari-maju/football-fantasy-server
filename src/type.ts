@@ -1,3 +1,5 @@
+import { Types } from "mongoose";
+
 export type TErrorResponseType = {
   NOT_FOUND: number;
   FORBIDDEN: number;
@@ -28,6 +30,7 @@ export type TAuth = {
   email: string;
   password: string;
   isActive: boolean;
+  teamId?: Types.ObjectId | null;
 };
 
 export type TSessions = {
@@ -38,4 +41,30 @@ export type TSessions = {
 export type TUserReq = {
   userId: string;
   sessionId: string;
+};
+
+export interface IPlayer {
+  name: string;
+  age: number;
+  nationality: string;
+  position: "Goalkeeper" | "Defender" | "Midfielder" | "Attacker";
+  price: number;
+  rating: number;
+  teamId?: Types.ObjectId;
+  isTransferListed: boolean;
+  askingPrice: number;
+}
+
+export type TTeam = {
+  userId: Types.ObjectId;
+  name: string;
+  budget: number;
+  players: Types.ObjectId[];
+};
+export type TTransfer = {
+  playerId: Types.ObjectId;
+  fromTeam: Types.ObjectId;
+  toTeam: Types.ObjectId;
+  salePrice: number;
+  date: Date;
 };
