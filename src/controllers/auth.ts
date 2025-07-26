@@ -1,58 +1,18 @@
 import { Request, Response } from "express";
-import AuthModel from "../models/auth";
-import SessionsModel from "../models/sessions";
-import {
-  createToken,
-  decodedToken,
-  sendErrorResponse,
-  sendResponse,
-  throwErrorResponse,
-} from "../utils";
-import bcrypt from "bcrypt";
+import { sendErrorResponse, sendResponse, throwErrorResponse } from "../utils";
+import { loginOrRegisterUser, logoutUser } from "../services/authService";
 
 export const login = async (req: Request, res: Response) => {
   try {
     const { email, password } = req.body;
 
-    let user = await AuthModel.findOne({ email });
+    const result = await loginOrRegisterUser(email, password);
 
-    // If user doesn't exist, auto-register them
-    const isNewUser = !user;
-    if (isNewUser) {
-      const hashedPassword = await bcrypt.hash(password, 5);
-      user = new AuthModel({ ...req.body, password: hashedPassword });
-      await user.save();
-    }
-
-    // If existing user, validate password
-    if (!isNewUser) {
-      const isMatch = await bcrypt.compare(password, user!.password);
-      if (!isMatch) {
-        return throwErrorResponse("BAD_REQUEST", "INVALID EMAIL OR PASSWORD");
-      }
-    }
-
-    // Create a new session
-    const session = new SessionsModel({
-      tokenType: "ACCESS_TOKEN",
-      userId: user!._id,
+    sendResponse(res, result.isNewUser ? "USER REGISTERED" : "USER LOGIN", {
+      access_token: result.access_token,
+      email: result.email,
     });
-
-    const access_token = createToken(
-      `${user!._id}`,
-      `${session._id}`,
-      "ACCESS_TOKEN"
-    );
-
-    session.token = access_token;
-    await session.save();
-
-    sendResponse(res, isNewUser ? "USER REGISTERED" : "USER LOGIN", {
-      access_token,
-      email: user!.email,
-    });
-  } catch (error) {
-    console.log(error);
+  } catch (error: any) {
     sendErrorResponse(res, error);
   }
 };
@@ -60,20 +20,18 @@ export const login = async (req: Request, res: Response) => {
 export const logout = async (req: Request, res: Response) => {
   try {
     const { access_token } = req.body;
-    // decode token payload
-    const decoded_token = decodedToken(access_token);
-    // throw error if invalid token
-    if (!decoded_token) return throwErrorResponse("FORBIDDEN", "INVALID TOKEN");
-    // find session and remove it into the database
-    const session = await SessionsModel.deleteOne({
-      _id: decoded_token?.tki,
-      tokenType: "ACCESS_TOKEN",
-    });
-    if (!session.deletedCount)
-      return throwErrorResponse("NOT_FOUND", "NO SESSION FOUND");
+
+    await logoutUser(access_token);
 
     sendResponse(res, "USER LOGOUT");
-  } catch (error) {
+  } catch (error: any) {
+    if (
+      error.message === "INVALID TOKEN" ||
+      error.message === "NO SESSION FOUND"
+    ) {
+      return throwErrorResponse("FORBIDDEN", error.message);
+    }
+
     sendErrorResponse(res, error);
   }
 };
