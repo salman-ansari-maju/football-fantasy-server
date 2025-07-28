@@ -41,8 +41,7 @@ export const loginOrRegisterUser = async (email: string, password: string) => {
 };
 
 export const logoutUser = async (access_token: string) => {
-  const decoded_token = decodedToken(access_token);
-
+  const decoded_token = decodedToken(access_token.split(" ")[1]);
   if (!decoded_token) {
     throw throwErrorResponse("FORBIDDEN", "INVALID TOKEN");
   }

@@ -12,6 +12,10 @@ const SessionsSchema = new Schema<TSessions>(
       type: String,
       required: [true, "token is required field"],
     },
+    tokenType: {
+      type: String,
+      required: [true, "tokenType is required field"],
+    },
   },
   { timestamps: true }
 );

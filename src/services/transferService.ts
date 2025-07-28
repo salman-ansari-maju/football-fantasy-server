@@ -1,4 +1,3 @@
-// services/transferService.ts
 import { Types } from "mongoose";
 import Player from "../models/players";
 import Team from "../models/team";
@@ -94,6 +93,14 @@ export const buyPlayerService = async (
   player.askingPrice = 0;
   await player.save();
 
+  // Update teams' player arrays
+  await Team.findByIdAndUpdate(sellerTeam._id, {
+    $pull: { players: player._id },
+  });
+  await Team.findByIdAndUpdate(buyerTeam._id, {
+    $push: { players: player._id },
+  });
+
   // Adjust budgets
   buyerTeam.budget -= salePrice;
   sellerTeam.budget += salePrice;
@@ -115,4 +122,41 @@ export const buyPlayerService = async (
     salePrice,
     transferId: transfer._id,
   };
+};
+
+export const removePlayerFromTransferList = async (
+  userId: Types.ObjectId,
+  playerId: Types.ObjectId
+) => {
+  const player = await Player.findById(playerId);
+  if (!player) throw throwErrorResponse("NOT_FOUND", "PLAYER NOT FOUND");
+
+  const team = await Team.findOne({ _id: player.teamId, userId });
+  if (!team)
+    throw throwErrorResponse("FORBIDDEN", "UNAUTHORIZED TO MODIFY THIS PLAYER");
+
+  if (!player.isTransferListed) {
+    throw throwErrorResponse("BAD_REQUEST", "PLAYER IS NOT LISTED");
+  }
+
+  player.isTransferListed = false;
+  player.askingPrice = 0;
+  await player.save();
+
+  return player;
+};
+
+/**
+ * Get all players listed for transfer from my team
+ */
+export const getMyListedPlayers = async (userId: Types.ObjectId) => {
+  const team = await Team.findOne({ userId });
+  if (!team) throw throwErrorResponse("NOT_FOUND", "TEAM NOT FOUND");
+
+  const players = await Player.find({
+    teamId: team._id,
+    isTransferListed: true,
+  });
+
+  return players;
 };

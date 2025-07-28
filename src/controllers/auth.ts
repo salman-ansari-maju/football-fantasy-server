@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { sendErrorResponse, sendResponse, throwErrorResponse } from "../utils";
+import { sendErrorResponse, sendResponse } from "../utils";
 import { loginOrRegisterUser, logoutUser } from "../services/authService";
 
 export const login = async (req: Request, res: Response) => {
@@ -19,19 +19,11 @@ export const login = async (req: Request, res: Response) => {
 
 export const logout = async (req: Request, res: Response) => {
   try {
-    const { access_token } = req.body;
-
-    await logoutUser(access_token);
+    const { authorization } = req.headers;
+    await logoutUser(authorization as string);
 
     sendResponse(res, "USER LOGOUT");
   } catch (error: any) {
-    if (
-      error.message === "INVALID TOKEN" ||
-      error.message === "NO SESSION FOUND"
-    ) {
-      return throwErrorResponse("FORBIDDEN", error.message);
-    }
-
     sendErrorResponse(res, error);
   }
 };

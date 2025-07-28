@@ -36,6 +36,7 @@ export type TAuth = {
 export type TSessions = {
   userId: String;
   token: string;
+  tokenType: TokenType;
 };
 
 export type TUserReq = {
