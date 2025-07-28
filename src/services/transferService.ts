@@ -145,18 +145,3 @@ export const removePlayerFromTransferList = async (
 
   return player;
 };
-
-/**
- * Get all players listed for transfer from my team
- */
-export const getMyListedPlayers = async (userId: Types.ObjectId) => {
-  const team = await Team.findOne({ userId });
-  if (!team) throw throwErrorResponse("NOT_FOUND", "TEAM NOT FOUND");
-
-  const players = await Player.find({
-    teamId: team._id,
-    isTransferListed: true,
-  });
-
-  return players;
-};

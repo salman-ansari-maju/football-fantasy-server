@@ -1,10 +1,9 @@
-// services/teamService.ts
 import PlayerModel from "../models/players";
 import TeamModel from "../models/team";
 import AuthModel from "../models/auth";
 import { Types } from "mongoose";
 import { throwErrorResponse } from "../utils";
-const STARTING_BUDGET = 5_000_000_0;
+const STARTING_BUDGET = 5_000_000;
 
 // Helper: get random N players from a pool
 const getRandomSubset = (array: any[], count: number) => {
@@ -14,11 +13,11 @@ const getRandomSubset = (array: any[], count: number) => {
 
 export const createTeamForUser = async (userId: Types.ObjectId) => {
   const user = await AuthModel.findById(userId);
-  if (!user) throw throwErrorResponse("NOT_FOUND", "User not found");
+  if (!user) return throwErrorResponse("NOT_FOUND", "User not found");
 
   // Check if user already has a team
-  if (user.teamId) {
-    throw throwErrorResponse("FORBIDDEN", "User already has a team");
+  if (user?.teamId) {
+    return throwErrorResponse("FORBIDDEN", "User already has a team");
   }
 
   // 1. Fetch unassigned players by position
@@ -43,6 +42,7 @@ export const createTeamForUser = async (userId: Types.ObjectId) => {
 
   // 3. Calculate total price
   const totalPrice = allPlayers.reduce((sum, p) => sum + p.price, 0);
+
   if (totalPrice > STARTING_BUDGET) {
     throw throwErrorResponse(
       "BAD_REQUEST",
@@ -53,7 +53,7 @@ export const createTeamForUser = async (userId: Types.ObjectId) => {
   // 4. Create the team
   const team = await TeamModel.create({
     userId,
-    name: `${user.email.split("@")[0]}'s Team`,
+    name: `${user?.email.split("@")[0]}'s Team`,
     budget: STARTING_BUDGET - totalPrice,
     players: allPlayers.map((p) => p._id),
   });
@@ -66,7 +66,7 @@ export const createTeamForUser = async (userId: Types.ObjectId) => {
 
   // Update user's teamId
   user.teamId = team._id;
-  await user.save();
+  await user?.save();
 
   // Return populated team
   return await TeamModel.findById(team._id).populate("players");

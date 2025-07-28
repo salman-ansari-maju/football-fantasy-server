@@ -4,7 +4,7 @@
     "age": 30,
     "nationality": "Italy",
     "position": "Goalkeeper",
-    "price": 380478,
+    "price": 207001,
     "rating": 68
   },
   {
@@ -12,7 +12,7 @@
     "age": 27,
     "nationality": "Portugal",
     "position": "Goalkeeper",
-    "price": 343678,
+    "price": 186099,
     "rating": 32
   },
   {
@@ -20,7 +20,7 @@
     "age": 36,
     "nationality": "Brazil",
     "position": "Goalkeeper",
-    "price": 692706,
+    "price": 376089,
     "rating": 45
   },
   {
@@ -28,7 +28,7 @@
     "age": 31,
     "nationality": "Portugal",
     "position": "Goalkeeper",
-    "price": 388671,
+    "price": 211047,
     "rating": 99
   },
   {
@@ -36,7 +36,7 @@
     "age": 31,
     "nationality": "Brazil",
     "position": "Goalkeeper",
-    "price": 606019,
+    "price": 329072,
     "rating": 58
   },
   {
@@ -44,7 +44,7 @@
     "age": 32,
     "nationality": "France",
     "position": "Goalkeeper",
-    "price": 692931,
+    "price": 377001,
     "rating": 7
   },
   {
@@ -52,7 +52,7 @@
     "age": 34,
     "nationality": "France",
     "position": "Goalkeeper",
-    "price": 324409,
+    "price": 176050,
     "rating": 14
   },
   {
@@ -60,7 +60,7 @@
     "age": 32,
     "nationality": "Belgium",
     "position": "Goalkeeper",
-    "price": 628835,
+    "price": 342014,
     "rating": 29
   },
   {
@@ -68,7 +68,7 @@
     "age": 22,
     "nationality": "Belgium",
     "position": "Goalkeeper",
-    "price": 658182,
+    "price": 358010,
     "rating": 68
   },
   {
@@ -76,7 +76,7 @@
     "age": 32,
     "nationality": "France",
     "position": "Goalkeeper",
-    "price": 196947,
+    "price": 107015,
     "rating": 2
   },
   {
@@ -84,7 +84,7 @@
     "age": 30,
     "nationality": "Portugal",
     "position": "Goalkeeper",
-    "price": 321023,
+    "price": 174066,
     "rating": 7
   },
   {
@@ -92,7 +92,7 @@
     "age": 35,
     "nationality": "Italy",
     "position": "Goalkeeper",
-    "price": 414121,
+    "price": 225031,
     "rating": 86
   },
   {
@@ -100,7 +100,7 @@
     "age": 23,
     "nationality": "Netherlands",
     "position": "Goalkeeper",
-    "price": 347476,
+    "price": 189005,
     "rating": 25
   },
   {
@@ -108,7 +108,7 @@
     "age": 26,
     "nationality": "Portugal",
     "position": "Goalkeeper",
-    "price": 606529,
+    "price": 330000,
     "rating": 22
   },
   {
@@ -116,7 +116,7 @@
     "age": 33,
     "nationality": "England",
     "position": "Goalkeeper",
-    "price": 367454,
+    "price": 199092,
     "rating": 68
   },
   {
@@ -124,7 +124,7 @@
     "age": 31,
     "nationality": "England",
     "position": "Goalkeeper",
-    "price": 630444,
+    "price": 343001,
     "rating": 90
   },
   {
@@ -132,7 +132,7 @@
     "age": 31,
     "nationality": "Argentina",
     "position": "Goalkeeper",
-    "price": 657923,
+    "price": 357096,
     "rating": 100
   },
   {
@@ -140,7 +140,7 @@
     "age": 19,
     "nationality": "Netherlands",
     "position": "Goalkeeper",
-    "price": 408642,
+    "price": 222033,
     "rating": 68
   },
   {
@@ -148,7 +148,7 @@
     "age": 31,
     "nationality": "England",
     "position": "Goalkeeper",
-    "price": 341419,
+    "price": 185076,
     "rating": 9
   },
   {
@@ -156,7 +156,7 @@
     "age": 19,
     "nationality": "Argentina",
     "position": "Goalkeeper",
-    "price": 641451,
+    "price": 349000,
     "rating": 44
   },
   {
@@ -164,7 +164,7 @@
     "age": 31,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 487322,
+    "price": 175062,
     "rating": 42
   },
   {
@@ -172,7 +172,7 @@
     "age": 31,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 601114,
+    "price": 216063,
     "rating": 96
   },
   {
@@ -180,7 +180,7 @@
     "age": 21,
     "nationality": "England",
     "position": "Defender",
-    "price": 164258,
+    "price": 59200,
     "rating": 89
   },
   {
@@ -188,7 +188,7 @@
     "age": 28,
     "nationality": "England",
     "position": "Defender",
-    "price": 388634,
+    "price": 140006,
     "rating": 17
   },
   {
@@ -196,7 +196,7 @@
     "age": 19,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 254466,
+    "price": 91701,
     "rating": 87
   },
   {
@@ -204,7 +204,7 @@
     "age": 31,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 191867,
+    "price": 69105,
     "rating": 83
   },
   {
@@ -212,7 +212,7 @@
     "age": 34,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 162147,
+    "price": 58404,
     "rating": 89
   },
   {
@@ -220,7 +220,7 @@
     "age": 25,
     "nationality": "Argentina",
     "position": "Defender",
-    "price": 390763,
+    "price": 140083,
     "rating": 34
   },
   {
@@ -228,7 +228,7 @@
     "age": 36,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 578162,
+    "price": 208036,
     "rating": 73
   },
   {
@@ -236,7 +236,7 @@
     "age": 30,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 649650,
+    "price": 234013,
     "rating": 4
   },
   {
@@ -244,7 +244,7 @@
     "age": 29,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 771962,
+    "price": 278021,
     "rating": 36
   },
   {
@@ -252,7 +252,7 @@
     "age": 30,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 311982,
+    "price": 112043,
     "rating": 50
   },
   {
@@ -260,7 +260,7 @@
     "age": 22,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 198433,
+    "price": 71501,
     "rating": 11
   },
   {
@@ -268,7 +268,7 @@
     "age": 20,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 188807,
+    "price": 68004,
     "rating": 77
   },
   {
@@ -276,7 +276,7 @@
     "age": 27,
     "nationality": "France",
     "position": "Defender",
-    "price": 752618,
+    "price": 271023,
     "rating": 58
   },
   {
@@ -284,7 +284,7 @@
     "age": 22,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 615264,
+    "price": 221073,
     "rating": 3
   },
   {
@@ -292,7 +292,7 @@
     "age": 33,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 508357,
+    "price": 183021,
     "rating": 57
   },
   {
@@ -300,7 +300,7 @@
     "age": 34,
     "nationality": "Germany",
     "position": "Defender",
-    "price": 224918,
+    "price": 81006,
     "rating": 79
   },
   {
@@ -308,7 +308,7 @@
     "age": 33,
     "nationality": "Germany",
     "position": "Defender",
-    "price": 389822,
+    "price": 140049,
     "rating": 85
   },
   {
@@ -316,7 +316,7 @@
     "age": 25,
     "nationality": "Netherlands",
     "position": "Defender",
-    "price": 774987,
+    "price": 279030,
     "rating": 59
   },
   {
@@ -324,7 +324,7 @@
     "age": 25,
     "nationality": "Netherlands",
     "position": "Defender",
-    "price": 689376,
+    "price": 248044,
     "rating": 68
   },
   {
@@ -332,7 +332,7 @@
     "age": 25,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 265864,
+    "price": 95801,
     "rating": 94
   },
   {
@@ -340,7 +340,7 @@
     "age": 27,
     "nationality": "Brazil",
     "position": "Defender",
-    "price": 648901,
+    "price": 233086,
     "rating": 62
   },
   {
@@ -348,7 +348,7 @@
     "age": 26,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 553633,
+    "price": 199052,
     "rating": 65
   },
   {
@@ -356,7 +356,7 @@
     "age": 18,
     "nationality": "England",
     "position": "Defender",
-    "price": 557317,
+    "price": 200085,
     "rating": 41
   },
   {
@@ -364,7 +364,7 @@
     "age": 36,
     "nationality": "Germany",
     "position": "Defender",
-    "price": 737123,
+    "price": 265065,
     "rating": 22
   },
   {
@@ -372,7 +372,7 @@
     "age": 18,
     "nationality": "Brazil",
     "position": "Defender",
-    "price": 467421,
+    "price": 168045,
     "rating": 98
   },
   {
@@ -380,7 +380,7 @@
     "age": 34,
     "nationality": "Netherlands",
     "position": "Defender",
-    "price": 680921,
+    "price": 245040,
     "rating": 100
   },
   {
@@ -388,7 +388,7 @@
     "age": 35,
     "nationality": "France",
     "position": "Defender",
-    "price": 767042,
+    "price": 276043,
     "rating": 11
   },
   {
@@ -396,7 +396,7 @@
     "age": 34,
     "nationality": "England",
     "position": "Defender",
-    "price": 187524,
+    "price": 67508,
     "rating": 15
   },
   {
@@ -404,7 +404,7 @@
     "age": 35,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 659225,
+    "price": 237058,
     "rating": 66
   },
   {
@@ -412,7 +412,7 @@
     "age": 27,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 377842,
+    "price": 136017,
     "rating": 34
   },
   {
@@ -420,7 +420,7 @@
     "age": 18,
     "nationality": "England",
     "position": "Defender",
-    "price": 294000,
+    "price": 105095,
     "rating": 24
   },
   {
@@ -428,7 +428,7 @@
     "age": 31,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 525611,
+    "price": 189042,
     "rating": 17
   },
   {
@@ -436,7 +436,7 @@
     "age": 34,
     "nationality": "England",
     "position": "Defender",
-    "price": 434853,
+    "price": 156072,
     "rating": 81
   },
   {
@@ -444,7 +444,7 @@
     "age": 28,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 551993,
+    "price": 198093,
     "rating": 78
   },
   {
@@ -452,7 +452,7 @@
     "age": 27,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 215971,
+    "price": 77803,
     "rating": 51
   },
   {
@@ -460,7 +460,7 @@
     "age": 22,
     "nationality": "Germany",
     "position": "Defender",
-    "price": 232443,
+    "price": 83707,
     "rating": 63
   },
   {
@@ -468,7 +468,7 @@
     "age": 26,
     "nationality": "Argentina",
     "position": "Defender",
-    "price": 519967,
+    "price": 187039,
     "rating": 47
   },
   {
@@ -476,7 +476,7 @@
     "age": 30,
     "nationality": "Argentina",
     "position": "Defender",
-    "price": 751615,
+    "price": 270087,
     "rating": 11
   },
   {
@@ -484,7 +484,7 @@
     "age": 27,
     "nationality": "England",
     "position": "Defender",
-    "price": 503584,
+    "price": 181049,
     "rating": 4
   },
   {
@@ -492,7 +492,7 @@
     "age": 18,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 791224,
+    "price": 285015,
     "rating": 68
   },
   {
@@ -500,7 +500,7 @@
     "age": 36,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 262655,
+    "price": 94606,
     "rating": 50
   },
   {
@@ -508,7 +508,7 @@
     "age": 34,
     "nationality": "Italy",
     "position": "Defender",
-    "price": 543869,
+    "price": 196000,
     "rating": 58
   },
   {
@@ -516,7 +516,7 @@
     "age": 25,
     "nationality": "Argentina",
     "position": "Defender",
-    "price": 201131,
+    "price": 72409,
     "rating": 49
   },
   {
@@ -524,7 +524,7 @@
     "age": 36,
     "nationality": "France",
     "position": "Defender",
-    "price": 499443,
+    "price": 179099,
     "rating": 40
   },
   {
@@ -532,7 +532,7 @@
     "age": 33,
     "nationality": "Netherlands",
     "position": "Defender",
-    "price": 638168,
+    "price": 229099,
     "rating": 23
   },
   {
@@ -540,7 +540,7 @@
     "age": 30,
     "nationality": "Netherlands",
     "position": "Defender",
-    "price": 587139,
+    "price": 211060,
     "rating": 13
   },
   {
@@ -548,7 +548,7 @@
     "age": 30,
     "nationality": "Spain",
     "position": "Defender",
-    "price": 579833,
+    "price": 208096,
     "rating": 14
   },
   {
@@ -556,7 +556,7 @@
     "age": 27,
     "nationality": "Netherlands",
     "position": "Defender",
-    "price": 568770,
+    "price": 204098,
     "rating": 56
   },
   {
@@ -564,7 +564,7 @@
     "age": 36,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 421308,
+    "price": 151083,
     "rating": 63
   },
   {
@@ -572,7 +572,7 @@
     "age": 21,
     "nationality": "Brazil",
     "position": "Defender",
-    "price": 702315,
+    "price": 253011,
     "rating": 41
   },
   {
@@ -580,7 +580,7 @@
     "age": 35,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 394496,
+    "price": 142017,
     "rating": 27
   },
   {
@@ -588,7 +588,7 @@
     "age": 22,
     "nationality": "Brazil",
     "position": "Defender",
-    "price": 745851,
+    "price": 268080,
     "rating": 49
   },
   {
@@ -596,7 +596,7 @@
     "age": 19,
     "nationality": "Germany",
     "position": "Defender",
-    "price": 321836,
+    "price": 115099,
     "rating": 17
   },
   {
@@ -604,7 +604,7 @@
     "age": 19,
     "nationality": "Belgium",
     "position": "Defender",
-    "price": 474418,
+    "price": 170097,
     "rating": 15
   },
   {
@@ -612,7 +612,7 @@
     "age": 25,
     "nationality": "Argentina",
     "position": "Defender",
-    "price": 563829,
+    "price": 203020,
     "rating": 65
   },
   {
@@ -620,7 +620,7 @@
     "age": 30,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 423032,
+    "price": 152046,
     "rating": 21
   },
   {
@@ -628,7 +628,7 @@
     "age": 25,
     "nationality": "Argentina",
     "position": "Defender",
-    "price": 739604,
+    "price": 266054,
     "rating": 5
   },
   {
@@ -636,7 +636,7 @@
     "age": 29,
     "nationality": "Portugal",
     "position": "Defender",
-    "price": 448650,
+    "price": 161069,
     "rating": 36
   },
   {
@@ -644,7 +644,7 @@
     "age": 20,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 540133,
+    "price": 204027,
     "rating": 55
   },
   {
@@ -652,7 +652,7 @@
     "age": 25,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 424788,
+    "price": 160065,
     "rating": 82
   },
   {
@@ -660,7 +660,7 @@
     "age": 19,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 485778,
+    "price": 183071,
     "rating": 3
   },
   {
@@ -668,7 +668,7 @@
     "age": 27,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 472977,
+    "price": 178087,
     "rating": 77
   },
   {
@@ -676,7 +676,7 @@
     "age": 25,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 223644,
+    "price": 84508,
     "rating": 15
   },
   {
@@ -684,7 +684,7 @@
     "age": 25,
     "nationality": "Argentina",
     "position": "Midfielder",
-    "price": 165925,
+    "price": 62705,
     "rating": 46
   },
   {
@@ -692,7 +692,7 @@
     "age": 31,
     "nationality": "France",
     "position": "Midfielder",
-    "price": 370234,
+    "price": 140002,
     "rating": 11
   },
   {
@@ -700,7 +700,7 @@
     "age": 18,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 516485,
+    "price": 195033,
     "rating": 47
   },
   {
@@ -708,7 +708,7 @@
     "age": 33,
     "nationality": "France",
     "position": "Midfielder",
-    "price": 751806,
+    "price": 284032,
     "rating": 9
   },
   {
@@ -716,7 +716,7 @@
     "age": 35,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 399109,
+    "price": 150094,
     "rating": 92
   },
   {
@@ -724,7 +724,7 @@
     "age": 23,
     "nationality": "Portugal",
     "position": "Midfielder",
-    "price": 750996,
+    "price": 284001,
     "rating": 90
   },
   {
@@ -732,7 +732,7 @@
     "age": 35,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 482444,
+    "price": 182045,
     "rating": 48
   },
   {
@@ -740,7 +740,7 @@
     "age": 31,
     "nationality": "Italy",
     "position": "Midfielder",
-    "price": 627763,
+    "price": 237041,
     "rating": 82
   },
   {
@@ -748,7 +748,7 @@
     "age": 20,
     "nationality": "Spain",
     "position": "Midfielder",
-    "price": 247094,
+    "price": 93405,
     "rating": 90
   },
   {
@@ -756,7 +756,7 @@
     "age": 19,
     "nationality": "Spain",
     "position": "Midfielder",
-    "price": 554120,
+    "price": 209056,
     "rating": 56
   },
   {
@@ -764,7 +764,7 @@
     "age": 32,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 510089,
+    "price": 192091,
     "rating": 29
   },
   {
@@ -772,7 +772,7 @@
     "age": 30,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 460198,
+    "price": 174004,
     "rating": 69
   },
   {
@@ -780,7 +780,7 @@
     "age": 35,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 581820,
+    "price": 220003,
     "rating": 98
   },
   {
@@ -788,7 +788,7 @@
     "age": 32,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 228586,
+    "price": 86405,
     "rating": 77
   },
   {
@@ -796,7 +796,7 @@
     "age": 27,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 266234,
+    "price": 100069,
     "rating": 26
   },
   {
@@ -804,7 +804,7 @@
     "age": 31,
     "nationality": "Argentina",
     "position": "Midfielder",
-    "price": 185096,
+    "price": 70000,
     "rating": 32
   },
   {
@@ -812,7 +812,7 @@
     "age": 26,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 357043,
+    "price": 135003,
     "rating": 32
   },
   {
@@ -820,7 +820,7 @@
     "age": 22,
     "nationality": "Italy",
     "position": "Midfielder",
-    "price": 617756,
+    "price": 233062,
     "rating": 100
   },
   {
@@ -828,7 +828,7 @@
     "age": 29,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 736720,
+    "price": 278062,
     "rating": 23
   },
   {
@@ -836,7 +836,7 @@
     "age": 36,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 503285,
+    "price": 190033,
     "rating": 98
   },
   {
@@ -844,7 +844,7 @@
     "age": 22,
     "nationality": "France",
     "position": "Midfielder",
-    "price": 357926,
+    "price": 135036,
     "rating": 42
   },
   {
@@ -852,7 +852,7 @@
     "age": 27,
     "nationality": "France",
     "position": "Midfielder",
-    "price": 435728,
+    "price": 164078,
     "rating": 15
   },
   {
@@ -860,7 +860,7 @@
     "age": 28,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 287292,
+    "price": 108065,
     "rating": 46
   },
   {
@@ -868,7 +868,7 @@
     "age": 28,
     "nationality": "Italy",
     "position": "Midfielder",
-    "price": 596789,
+    "price": 225070,
     "rating": 93
   },
   {
@@ -876,7 +876,7 @@
     "age": 20,
     "nationality": "Portugal",
     "position": "Midfielder",
-    "price": 683924,
+    "price": 258065,
     "rating": 71
   },
   {
@@ -884,7 +884,7 @@
     "age": 21,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 583666,
+    "price": 220073,
     "rating": 77
   },
   {
@@ -892,7 +892,7 @@
     "age": 20,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 639174,
+    "price": 241072,
     "rating": 59
   },
   {
@@ -900,7 +900,7 @@
     "age": 25,
     "nationality": "Belgium",
     "position": "Midfielder",
-    "price": 447883,
+    "price": 169038,
     "rating": 64
   },
   {
@@ -908,7 +908,7 @@
     "age": 24,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 553603,
+    "price": 209036,
     "rating": 19
   },
   {
@@ -916,7 +916,7 @@
     "age": 24,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 406525,
+    "price": 153074,
     "rating": 48
   },
   {
@@ -924,7 +924,7 @@
     "age": 34,
     "nationality": "Italy",
     "position": "Midfielder",
-    "price": 552099,
+    "price": 208079,
     "rating": 84
   },
   {
@@ -932,7 +932,7 @@
     "age": 20,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 495119,
+    "price": 187025,
     "rating": 87
   },
   {
@@ -940,7 +940,7 @@
     "age": 26,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 567814,
+    "price": 214074,
     "rating": 35
   },
   {
@@ -948,7 +948,7 @@
     "age": 22,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 606452,
+    "price": 229035,
     "rating": 70
   },
   {
@@ -956,7 +956,7 @@
     "age": 25,
     "nationality": "Spain",
     "position": "Midfielder",
-    "price": 721571,
+    "price": 272089,
     "rating": 47
   },
   {
@@ -964,7 +964,7 @@
     "age": 33,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 422514,
+    "price": 159079,
     "rating": 44
   },
   {
@@ -972,7 +972,7 @@
     "age": 23,
     "nationality": "Spain",
     "position": "Midfielder",
-    "price": 288787,
+    "price": 109021,
     "rating": 8
   },
   {
@@ -980,7 +980,7 @@
     "age": 21,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 373185,
+    "price": 141013,
     "rating": 12
   },
   {
@@ -988,7 +988,7 @@
     "age": 19,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 316385,
+    "price": 119065,
     "rating": 64
   },
   {
@@ -996,7 +996,7 @@
     "age": 33,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 586911,
+    "price": 221096,
     "rating": 100
   },
   {
@@ -1004,7 +1004,7 @@
     "age": 19,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 478000,
+    "price": 180077,
     "rating": 90
   },
   {
@@ -1012,7 +1012,7 @@
     "age": 25,
     "nationality": "Portugal",
     "position": "Midfielder",
-    "price": 722574,
+    "price": 273027,
     "rating": 20
   },
   {
@@ -1020,7 +1020,7 @@
     "age": 33,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 491503,
+    "price": 185088,
     "rating": 71
   },
   {
@@ -1028,7 +1028,7 @@
     "age": 36,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 544236,
+    "price": 205082,
     "rating": 4
   },
   {
@@ -1036,7 +1036,7 @@
     "age": 27,
     "nationality": "Portugal",
     "position": "Midfielder",
-    "price": 269412,
+    "price": 101089,
     "rating": 78
   },
   {
@@ -1044,7 +1044,7 @@
     "age": 18,
     "nationality": "France",
     "position": "Midfielder",
-    "price": 348812,
+    "price": 131091,
     "rating": 78
   },
   {
@@ -1052,7 +1052,7 @@
     "age": 27,
     "nationality": "Argentina",
     "position": "Midfielder",
-    "price": 312783,
+    "price": 118029,
     "rating": 10
   },
   {
@@ -1060,7 +1060,7 @@
     "age": 33,
     "nationality": "England",
     "position": "Midfielder",
-    "price": 376964,
+    "price": 142056,
     "rating": 12
   },
   {
@@ -1068,7 +1068,7 @@
     "age": 19,
     "nationality": "Germany",
     "position": "Midfielder",
-    "price": 634182,
+    "price": 239084,
     "rating": 46
   },
   {
@@ -1076,7 +1076,7 @@
     "age": 26,
     "nationality": "Argentina",
     "position": "Midfielder",
-    "price": 409663,
+    "price": 154093,
     "rating": 47
   },
   {
@@ -1084,7 +1084,7 @@
     "age": 26,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 446754,
+    "price": 168095,
     "rating": 41
   },
   {
@@ -1092,7 +1092,7 @@
     "age": 19,
     "nationality": "France",
     "position": "Midfielder",
-    "price": 493704,
+    "price": 186071,
     "rating": 59
   },
   {
@@ -1100,7 +1100,7 @@
     "age": 26,
     "nationality": "Argentina",
     "position": "Midfielder",
-    "price": 156334,
+    "price": 59102,
     "rating": 61
   },
   {
@@ -1108,7 +1108,7 @@
     "age": 18,
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "price": 274587,
+    "price": 103084,
     "rating": 76
   },
   {
@@ -1116,7 +1116,7 @@
     "age": 20,
     "nationality": "Brazil",
     "position": "Midfielder",
-    "price": 421354,
+    "price": 159035,
     "rating": 43
   },
   {
@@ -1124,7 +1124,7 @@
     "age": 26,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 714917,
+    "price": 203027,
     "rating": 15
   },
   {
@@ -1132,7 +1132,7 @@
     "age": 23,
     "nationality": "Netherlands",
     "position": "Attacker",
-    "price": 723683,
+    "price": 205076,
     "rating": 43
   },
   {
@@ -1140,7 +1140,7 @@
     "age": 19,
     "nationality": "Argentina",
     "position": "Attacker",
-    "price": 760532,
+    "price": 216023,
     "rating": 50
   },
   {
@@ -1148,7 +1148,7 @@
     "age": 19,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 511336,
+    "price": 145038,
     "rating": 77
   },
   {
@@ -1156,7 +1156,7 @@
     "age": 23,
     "nationality": "France",
     "position": "Attacker",
-    "price": 771208,
+    "price": 219027,
     "rating": 73
   },
   {
@@ -1164,7 +1164,7 @@
     "age": 34,
     "nationality": "England",
     "position": "Attacker",
-    "price": 272817,
+    "price": 77507,
     "rating": 30
   },
   {
@@ -1172,7 +1172,7 @@
     "age": 21,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 719116,
+    "price": 204046,
     "rating": 9
   },
   {
@@ -1180,7 +1180,7 @@
     "age": 28,
     "nationality": "Netherlands",
     "position": "Attacker",
-    "price": 793460,
+    "price": 225060,
     "rating": 44
   },
   {
@@ -1188,7 +1188,7 @@
     "age": 19,
     "nationality": "Argentina",
     "position": "Attacker",
-    "price": 217712,
+    "price": 61900,
     "rating": 95
   },
   {
@@ -1196,7 +1196,7 @@
     "age": 19,
     "nationality": "England",
     "position": "Attacker",
-    "price": 438544,
+    "price": 124069,
     "rating": 38
   },
   {
@@ -1204,7 +1204,7 @@
     "age": 34,
     "nationality": "Belgium",
     "position": "Attacker",
-    "price": 330636,
+    "price": 94001,
     "rating": 58
   },
   {
@@ -1212,7 +1212,7 @@
     "age": 22,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 684000,
+    "price": 194047,
     "rating": 89
   },
   {
@@ -1220,7 +1220,7 @@
     "age": 35,
     "nationality": "England",
     "position": "Attacker",
-    "price": 257344,
+    "price": 73107,
     "rating": 9
   },
   {
@@ -1228,7 +1228,7 @@
     "age": 33,
     "nationality": "Argentina",
     "position": "Attacker",
-    "price": 551861,
+    "price": 156091,
     "rating": 26
   },
   {
@@ -1236,7 +1236,7 @@
     "age": 22,
     "nationality": "England",
     "position": "Attacker",
-    "price": 683097,
+    "price": 194022,
     "rating": 3
   },
   {
@@ -1244,7 +1244,7 @@
     "age": 19,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 390523,
+    "price": 111003,
     "rating": 0
   },
   {
@@ -1252,7 +1252,7 @@
     "age": 33,
     "nationality": "Netherlands",
     "position": "Attacker",
-    "price": 744430,
+    "price": 211066,
     "rating": 19
   },
   {
@@ -1260,7 +1260,7 @@
     "age": 24,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 792513,
+    "price": 225033,
     "rating": 76
   },
   {
@@ -1268,7 +1268,7 @@
     "age": 32,
     "nationality": "Italy",
     "position": "Attacker",
-    "price": 456972,
+    "price": 129093,
     "rating": 59
   },
   {
@@ -1276,7 +1276,7 @@
     "age": 28,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 586703,
+    "price": 166081,
     "rating": 20
   },
   {
@@ -1284,7 +1284,7 @@
     "age": 21,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 677470,
+    "price": 192062,
     "rating": 69
   },
   {
@@ -1292,7 +1292,7 @@
     "age": 30,
     "nationality": "Portugal",
     "position": "Attacker",
-    "price": 405380,
+    "price": 115026,
     "rating": 87
   },
   {
@@ -1300,7 +1300,7 @@
     "age": 22,
     "nationality": "England",
     "position": "Attacker",
-    "price": 737706,
+    "price": 209074,
     "rating": 34
   },
   {
@@ -1308,7 +1308,7 @@
     "age": 35,
     "nationality": "Portugal",
     "position": "Attacker",
-    "price": 231209,
+    "price": 65704,
     "rating": 9
   },
   {
@@ -1316,7 +1316,7 @@
     "age": 18,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 324324,
+    "price": 92201,
     "rating": 31
   },
   {
@@ -1324,7 +1324,7 @@
     "age": 33,
     "nationality": "Spain",
     "position": "Attacker",
-    "price": 630011,
+    "price": 179012,
     "rating": 82
   },
   {
@@ -1332,7 +1332,7 @@
     "age": 32,
     "nationality": "England",
     "position": "Attacker",
-    "price": 333414,
+    "price": 94800,
     "rating": 58
   },
   {
@@ -1340,7 +1340,7 @@
     "age": 18,
     "nationality": "England",
     "position": "Attacker",
-    "price": 495399,
+    "price": 140085,
     "rating": 32
   },
   {
@@ -1348,7 +1348,7 @@
     "age": 32,
     "nationality": "England",
     "position": "Attacker",
-    "price": 597983,
+    "price": 170002,
     "rating": 60
   },
   {
@@ -1356,7 +1356,7 @@
     "age": 29,
     "nationality": "Belgium",
     "position": "Attacker",
-    "price": 792178,
+    "price": 225023,
     "rating": 17
   },
   {
@@ -1364,7 +1364,7 @@
     "age": 32,
     "nationality": "Italy",
     "position": "Attacker",
-    "price": 488930,
+    "price": 139001,
     "rating": 66
   },
   {
@@ -1372,7 +1372,7 @@
     "age": 19,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 416085,
+    "price": 118030,
     "rating": 56
   },
   {
@@ -1380,7 +1380,7 @@
     "age": 34,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 485532,
+    "price": 138005,
     "rating": 40
   },
   {
@@ -1388,7 +1388,7 @@
     "age": 33,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 359307,
+    "price": 102016,
     "rating": 84
   },
   {
@@ -1396,7 +1396,7 @@
     "age": 19,
     "nationality": "Italy",
     "position": "Attacker",
-    "price": 652975,
+    "price": 185065,
     "rating": 95
   },
   {
@@ -1404,7 +1404,7 @@
     "age": 30,
     "nationality": "Italy",
     "position": "Attacker",
-    "price": 606833,
+    "price": 172053,
     "rating": 68
   },
   {
@@ -1412,7 +1412,7 @@
     "age": 36,
     "nationality": "France",
     "position": "Attacker",
-    "price": 193865,
+    "price": 55102,
     "rating": 80
   },
   {
@@ -1420,7 +1420,7 @@
     "age": 18,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 391398,
+    "price": 111028,
     "rating": 90
   },
   {
@@ -1428,7 +1428,7 @@
     "age": 36,
     "nationality": "Argentina",
     "position": "Attacker",
-    "price": 514940,
+    "price": 146041,
     "rating": 51
   },
   {
@@ -1436,7 +1436,7 @@
     "age": 31,
     "nationality": "France",
     "position": "Attacker",
-    "price": 767502,
+    "price": 218022,
     "rating": 71
   },
   {
@@ -1444,7 +1444,7 @@
     "age": 22,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 392999,
+    "price": 111074,
     "rating": 13
   },
   {
@@ -1452,7 +1452,7 @@
     "age": 19,
     "nationality": "Netherlands",
     "position": "Attacker",
-    "price": 408313,
+    "price": 116009,
     "rating": 86
   },
   {
@@ -1460,7 +1460,7 @@
     "age": 36,
     "nationality": "Spain",
     "position": "Attacker",
-    "price": 505245,
+    "price": 143065,
     "rating": 92
   },
   {
@@ -1468,7 +1468,7 @@
     "age": 34,
     "nationality": "France",
     "position": "Attacker",
-    "price": 296893,
+    "price": 84401,
     "rating": 27
   },
   {
@@ -1476,7 +1476,7 @@
     "age": 36,
     "nationality": "Spain",
     "position": "Attacker",
-    "price": 416442,
+    "price": 118040,
     "rating": 42
   },
   {
@@ -1484,7 +1484,7 @@
     "age": 27,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 150063,
+    "price": 42607,
     "rating": 98
   },
   {
@@ -1492,7 +1492,7 @@
     "age": 30,
     "nationality": "England",
     "position": "Attacker",
-    "price": 352647,
+    "price": 100026,
     "rating": 22
   },
   {
@@ -1500,7 +1500,7 @@
     "age": 28,
     "nationality": "Belgium",
     "position": "Attacker",
-    "price": 617909,
+    "price": 175068,
     "rating": 58
   },
   {
@@ -1508,7 +1508,7 @@
     "age": 22,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 736936,
+    "price": 209053,
     "rating": 16
   },
   {
@@ -1516,7 +1516,7 @@
     "age": 24,
     "nationality": "Germany",
     "position": "Attacker",
-    "price": 462486,
+    "price": 131049,
     "rating": 65
   },
   {
@@ -1524,7 +1524,7 @@
     "age": 31,
     "nationality": "Brazil",
     "position": "Attacker",
-    "price": 264763,
+    "price": 75208,
     "rating": 41
   },
   {
@@ -1532,7 +1532,7 @@
     "age": 18,
     "nationality": "France",
     "position": "Attacker",
-    "price": 391896,
+    "price": 111042,
     "rating": 8
   },
   {
@@ -1540,7 +1540,7 @@
     "age": 27,
     "nationality": "England",
     "position": "Attacker",
-    "price": 426400,
+    "price": 121023,
     "rating": 34
   },
   {
@@ -1548,7 +1548,7 @@
     "age": 26,
     "nationality": "Argentina",
     "position": "Attacker",
-    "price": 155439,
+    "price": 44109,
     "rating": 49
   },
   {
@@ -1556,7 +1556,7 @@
     "age": 24,
     "nationality": "Italy",
     "position": "Attacker",
-    "price": 410582,
+    "price": 116074,
     "rating": 91
   },
   {
@@ -1564,7 +1564,7 @@
     "age": 34,
     "nationality": "Italy",
     "position": "Attacker",
-    "price": 666443,
+    "price": 189048,
     "rating": 95
   },
   {
@@ -1572,7 +1572,7 @@
     "age": 32,
     "nationality": "Argentina",
     "position": "Attacker",
-    "price": 469947,
+    "price": 133062,
     "rating": 13
   },
   {
@@ -1580,7 +1580,7 @@
     "age": 20,
     "nationality": "Spain",
     "position": "Attacker",
-    "price": 774999,
+    "price": 220035,
     "rating": 16
   },
   {
@@ -1588,7 +1588,7 @@
     "age": 23,
     "nationality": "Netherlands",
     "position": "Attacker",
-    "price": 721480,
+    "price": 205013,
     "rating": 13
   },
   {
@@ -1596,7 +1596,7 @@
     "age": 21,
     "nationality": "Portugal",
     "position": "Attacker",
-    "price": 649437,
+    "price": 184065,
     "rating": 32
   }
 ]

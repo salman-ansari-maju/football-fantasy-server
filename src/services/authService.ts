@@ -1,4 +1,3 @@
-// services/authService.ts
 import bcrypt from "bcrypt";
 import AuthModel from "../models/auth";
 import SessionsModel from "../models/sessions";
@@ -15,7 +14,7 @@ export const loginOrRegisterUser = async (email: string, password: string) => {
   } else {
     const isMatch = await bcrypt.compare(password, user!.password);
     if (!isMatch) {
-      throw throwErrorResponse("BAD_REQUEST", "INVALID EMAIL OR PASSWORD");
+      throwErrorResponse("BAD_REQUEST", "INVALID EMAIL OR PASSWORD");
     }
   }
 
@@ -43,7 +42,7 @@ export const loginOrRegisterUser = async (email: string, password: string) => {
 export const logoutUser = async (access_token: string) => {
   const decoded_token = decodedToken(access_token.split(" ")[1]);
   if (!decoded_token) {
-    throw throwErrorResponse("FORBIDDEN", "INVALID TOKEN");
+    throwErrorResponse("FORBIDDEN", "INVALID TOKEN");
   }
 
   const session = await SessionsModel.deleteOne({
@@ -52,7 +51,7 @@ export const logoutUser = async (access_token: string) => {
   });
 
   if (!session.deletedCount) {
-    throw throwErrorResponse("NOT_FOUND", "NO SESSION FOUND");
+    throwErrorResponse("NOT_FOUND", "NO SESSION FOUND");
   }
 
   return true;

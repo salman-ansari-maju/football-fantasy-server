@@ -5,7 +5,6 @@ import {
   getActiveTransfers,
   listPlayerForTransferService,
   buyPlayerService,
-  getMyListedPlayers,
   removePlayerFromTransferList,
 } from "../services/transferService";
 
@@ -55,24 +54,6 @@ export const buyPlayer = async (req: Request, res: Response) => {
     );
 
     sendResponse(res, "PLAYER PURCHASED SUCCESSFULLY", result);
-  } catch (error) {
-    sendErrorResponse(res, error);
-  }
-};
-
-export const getMyTransferListedPlayers = async (
-  req: Request,
-  res: Response
-) => {
-  try {
-    const userId = req.user?.id;
-
-    if (!userId || !Types.ObjectId.isValid(userId)) {
-      return throwErrorResponse("BAD_REQUEST", "INVALID USER ID");
-    }
-
-    const result = await getMyListedPlayers(new Types.ObjectId(userId));
-    sendResponse(res, "MY LISTED PLAYERS FETCHED", result);
   } catch (error) {
     sendErrorResponse(res, error);
   }
