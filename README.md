@@ -90,7 +90,7 @@ Follow these steps to get the backend up and running:
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/salman-ansari-maju/football-fantasy-server.git
    cd football-fantasy-server
    ```
 2. **Install dependencies:**
